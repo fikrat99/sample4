@@ -405,6 +405,20 @@ dd {
     height: 100%;
 }
 
+/* ------------------------------------------------------------------- 
+ * ## home-social-2
+ * ------------------------------------------------------------------- */
+.home-social-2 {
+    font-family: "montserrat-regular", sans-serif;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    -webkit-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
 
 /* ------------------------------------------------------------------- 
  * ## floated image
