@@ -2011,24 +2011,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-.home-social a {
+.home-social-2 a {
     color: white;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
-.home-social li {
+.home-social-2 li {
     position: relative;
     padding: .9rem 0;
 }
 
-.home-social li a {
+.home-social-2 li a {
     display: block;
     width: 33px;
     height: 33px;
 }
 
-.home-social i, .home-social span {
+.home-social-2 i, .home-social span {
     position: absolute;
     top: 0;
     line-height: 33px;
@@ -2036,7 +2036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.5s ease-in-out;
 }
 
-.home-social i {
+.home-social-2 i {
     font-size: 14px;
     right: 0;
     text-align: center;
@@ -2048,7 +2048,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     border-radius: 50%;
 }
 
-.home-social span {
+.home-social-2 span {
     color: #39b54a;
     right: 4.5rem;
     font-size: 1.3rem;
@@ -2062,7 +2062,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transform-origin: 100% 50%;
 }
 
-.home-social li:hover span {
+.home-social-2 li:hover span {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
