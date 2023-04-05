@@ -2000,7 +2000,67 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 
-
+/* Styles for the drop down button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    top: 10px;
+    left: 1100px;
+  }
+  
+  .dropbtn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Styles for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    z-index: 2;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transform: translateY(1px);
+  }
+  
+  /* Styles for the dropdown links */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    transform: translateX(10px);
+  }
+  
+  /* Font Awesome styles */
+  .fa-language:before {
+    content: "\f1ab";
+    font-family: FontAwesome;
+  }
+  
 
 
 
