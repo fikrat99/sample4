@@ -2001,7 +2001,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
  .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
     margin-left: 1100px;
   }
