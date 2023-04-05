@@ -2001,7 +2001,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
  .logo {
-  position: fixed;
+  position: absolute;
   top: 5%;
   left: 5%;
   width: 10%;
