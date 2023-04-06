@@ -519,11 +519,11 @@ form,
  * ## split
  * ------------------------------------------------------------------- */
 .split {
-  height: 100%;
-  width: 65%;
+  full-height: 100%;
+  width: 35%;
   position: absolute;
   z-index: 1;
-  top: 60px;
+  top: 20px;
   overflow-x: hidden;
   padding-top: 30px;
 }
