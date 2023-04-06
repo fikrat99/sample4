@@ -523,9 +523,9 @@ form,
   width: 65%;
   position: absolute;
   z-index: 1;
-  top: 0;
+  top: 60px;
   overflow-x: hidden;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .left {
