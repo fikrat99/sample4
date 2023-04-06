@@ -516,42 +516,33 @@ form,
 }
 
 /* ------------------------------------------------------------------- 
- * ## split
+ * ## column
  * ------------------------------------------------------------------- */
-.split {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 0px;
-}
+ * {
+  box-sizing: border-box;
+} 
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 100vh;
+} 
 
 .left {
-  left: 45px;
-  background-image:url("images/bg.png");
-}
+  width: 25%;
+} 
 
 .right {
-  right:0 ;
-  left: 35% ;
-  background-color: grey;
+  width: 75%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   
-}
-
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 300px;
-  border-radius: 10%;
-}
 /* ===================================================================
  * # preloader
  *
