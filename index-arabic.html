@@ -34,6 +34,21 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+     <!-- right to left
+    ================================================== -->
+       <style>
+
+
+[lang]{
+
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+[lang="ar"]
+{
+    direction: rtl ;
+}
+       </style> 
 </head>
 
 <body id="top">
@@ -47,7 +62,7 @@
                 <img src="images/logo.png" alt="Homepage">
             </a>
         </div>
-        
+            <section lang="ar"></section>
         
         <div class="dropdown">
             <div class="layer1">
@@ -55,9 +70,9 @@
                 <div class="layer3">
                   <i class="fa fa-language"></i>
                   <div class="dropdown-content">
-                    <a href="index.html">English<br>🇬🇧</a>
-                    <a href="index-French.html">French<br>🇫🇷</a>
-                    <a href="index-turkish.html">Turkish<br>🇹🇷</a>
+                    <a href="index.html">إنجليزي<br>🇬🇧</a>
+                    <a href="index-French.html">فرنسي<br>🇫🇷</a>
+                    <a href="index-turkish.html">اللغة التركية<br>🇹🇷</a>
                   </div>
                 </div>
               </div>
@@ -70,19 +85,23 @@
 
         <nav class="header-nav">
 
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <a href="#0" class="header-nav__close" title="close"><span>يغلق</span></a>
 
             <div class="header-nav__content">
-                <h3>Navigation</h3>
+                <h3>ملاحة</h3>
+                <section lang="ar">
+
+                    <ul class="header-nav__list">
+                        <li class="current"><a class="smoothscroll"  href="#home" title="home">الصفحة الرئيسية</a></li>
+                        <li><a class="smoothscroll"  href="#about" title="about">معلومات عنا</a></li>
+                        <li><a class="smoothscroll"  href="#services" title="services">خدمات</a></li>
+                        <li><a class="smoothscroll"  href="#works" title="works">مشاريعنا</a></li>
+                        <li><a class="smoothscroll"  href="#clients" title="clients">عملاء</a></li>
+                        <li><a class="smoothscroll"  href="#contact" title="contact">اتصال</a></li>
+                    </ul>
+
+                </section>
                 
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                </ul>
     
                 <p> <a href='#0'></a> </p>
     
@@ -103,12 +122,19 @@
 
         </nav>  <!-- end header-nav -->
 
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
+        <section lang="ar"> 
+            
+            <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">القائمة</span>
             <span class="header-menu-icon"></span>
         </a>
-       
+        
+            
+        </section>
 
+       
+       
+       
     </header> <!-- end s-header -->
 
     
@@ -122,33 +148,37 @@
         <div class="home-content">
 
             <div class="row home-content__main">
+                <section lang="ar">
 
-                <h3>مرحبا بكم في فكرات</h3>
+                    <h3>مرحبا بكم في فكرات</h3>
 
-                <h1>
-                    نحن شركة ذات مسؤولية محدودة <br>
-                    متخصصون في خدمات الاستشارات السياحية ، <br>
-                    استخدام نهج إبداعي للتواصل ، <br>
-                    التشاور وتقديم الخبرات الرقمية.
-                </h1>
+                    <h1>
+                        نحن شركة ذات مسؤولية محدودة <br>
+                        متخصصون في خدمات الاستشارات السياحية ، <br>
+                        استخدام نهج إبداعي للتواصل ، <br>
+                        التشاور وتقديم الخبرات الرقمية.
+                    </h1>
+
+                
+                
 
                 <div class="home-content__buttons">
                     <a href="#contact" class="smoothscroll btn btn--stroke">
-                        Get in Touch
+                        ابقى على تواصل
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Us
+                        المزيد عنا
                     </a>
                 </div>
-
+                 
             </div>
 
             <div class="home-content__scroll">
                 <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
+                    <span>حرك الفأرة لأسفل</span>
                 </a>
             </div>
-
+        
             <div class="home-content__line"></div>
 
         </div> <!-- end home-content -->
@@ -184,16 +214,15 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">Hello There</h3>
-                <h1 class="display-1 display-1--light">We Are fikrat</h1>
+                <h3 class="subhead subhead--dark">أهلاً بك</h3>
+                <h1 class="display-1 display-1--light">نحن فكرات</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
-                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
+                    مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
                     </div>
         </div> <!-- end about-desc -->
 
@@ -201,19 +230,19 @@
                 
             <div class="col-block stats__col ">
                 <div class="stats__count">127</div>
-                <h5>Awards Received</h5>
+                <h5>استلام الجوائز</h5>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">1505</div>
-                <h5>Cups of Coffee</h5>
+                <h5>كؤوس من القهوة</h5>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">109</div>
-                <h5>Projects Completed</h5>
+                <h5>المشاريع المنجزة</h5>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">102</div>
-                <h5>Happy Clients</h5> 
+                <h5>عملاء سعداء</h5> 
             </div>
 
         </div> <!-- end about-stats -->
@@ -229,8 +258,8 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-2">We’ve got everything you need</h1>
+                <h3 class="subhead">الذي نفعله</h3>
+                <h1 class="display-2">لدينا كل ما تحتاجه</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -241,8 +270,8 @@
                     <a href ="health.html"> <i class="icon-first-aid"></i></a>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Health</h3>
-                    <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
+                    <h3 class="h2">صحة</h3>
+                    <p>                   مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
 
                     </p>
                 </div>
@@ -253,10 +282,8 @@
                     <i class="icon-map"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Tourism</h3>
-                    <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
-                    </p>
+                    <h3 class="h2">السياحة</h3>
+                    <p>                 مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية. </p>
                 </div>
             </div>
 
@@ -265,9 +292,8 @@
                     <i class="icon-megaphone"></i>
                 </div>  
                 <div class="service-text">
-                    <h3 class="h2">Marketing</h3>
-                    <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
+                    <h3 class="h2">تسويق</h3>
+                    <p>     مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
                     </p>
                 </div>
             </div>
@@ -277,9 +303,8 @@
                     <i class="icon-earth"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Web Design</h3>
-                    <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
+                    <h3 class="h2">تصميم الويب</h3>
+                    <p>                  مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
                     </p>
                 </div>
             </div>
@@ -289,9 +314,8 @@
                     <i class="icon-euro"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Trade Consultancy</h3>
-                    <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
+                    <h3 class="h2">الاستشارات التجارية</h3>
+                    <p>              مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
                     </p>
                 </div>
             </div>
@@ -299,13 +323,12 @@
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon"><i class="icon-desktop"></i></div>
                 <div class="service-text">
-                    <h3 class="h2">Web Development</h3>
-                    <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
+                    <h3 class="h2">تطوير الشبكة</h3>
+                    <p>                    مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
                     </p>
                 </div>
             </div>
-
+            </section>
         </div> <!-- end services-list -->
 
     </section> <!-- end s-services -->
@@ -319,8 +342,8 @@
                 
             <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
                 <div class="col-full">
-                    <h3 class="subhead">Recent Works</h3>
-                    <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+                    <h3 class="subhead">الأعمال الأخيرة</h3>
+                    <h1 class="display-2 display-2--light">نحن نحب ما نقوم به ، تحقق من بعض أحدث أعمالنا</h1>
                 </div>
             </div> <!-- end section-header -->
 
@@ -342,10 +365,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Shutterbug
+                                    شاتيربوغ
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Branding
+                                    العلامة التجارية
                                 </p>
                             </div>
     
@@ -353,9 +376,7 @@
                                 <i class="icon-link"></i>
                             </a>
     
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
+                            
     
                         </div>
                     </div> <!-- end masonry__brick -->
@@ -384,7 +405,7 @@
                             </a>
     
                             <div class="item-folio__caption">
-                                <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
+                                <p>                 مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
 </p>
                             </div>
     
@@ -403,10 +424,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    The Beetle
+                                    الخنفساء
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Web Development
+                                    تطوير الشبكة
                                 </p>
                             </div>
     
@@ -415,8 +436,7 @@
                             </a>
     
                             <div class="item-folio__caption">
-                                <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-</p>
+                                <p>                مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.</p>
                             </div>
     
                         </div>
@@ -434,10 +454,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Grow Green
+                                    تنمو خضراء
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Branding
+                                    العلامات التجارية
                                 </p>
                             </div>
     
@@ -446,8 +466,7 @@
                             </a>
     
                             <div class="item-folio__caption">
-                                <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-</p>
+                                <p>                  مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.</p>
                             </div>
     
                         </div>
@@ -465,10 +484,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Guitarist
+                                    عازف الجيتار
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Web Design
+                                    تصميم المواقع
                                 </p>
                             </div>
     
@@ -476,9 +495,7 @@
                                 <i class="icon-link"></i>
                             </a>
     
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
+                           
     
                         </div>
                     </div> <!-- end masonry__brick -->
@@ -495,10 +512,10 @@
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Palmeira
+                                    بالميرا
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Web Design
+                                    تصميم المواقع
                                 </p>
                             </div>
     
@@ -507,8 +524,7 @@
                             </a>
     
                             <div class="item-folio__caption">
-                                <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-</p>
+                                <p>                   مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.</p>
                             </div>
     
                         </div>
@@ -527,9 +543,9 @@
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-2">fikrat has been honored to
-                partner up with these clients</h1>
+                <h3 class="subhead">عملائنا</h3>
+                <h1 class="display-2">تم تكريم فكره ل
+                    شراكة مع هؤلاء العملاء</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -556,42 +572,20 @@
 
                     <div class="testimonials__slide">
 
-                        <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-.</p>
+                        <p>                    مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
+                            .</p>
 
                         <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
-                            <span class="testimonials__name">Ali maki</span> 
-                            <span class="testimonials__pos">CEO, Firkrat</span>
+                            <span class="testimonials__name">علي مكي</span> 
+                            <span class="testimonials__pos">الرئيس التنفيذي ، فيركات</span>
                         </div>
 
                     </div>
 
                     <div class="testimonials__slide">
                         
-                        <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-</p>
-
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            < <span class="testimonials__name">Ali maki</span> 
-                            <span class="testimonials__pos">CEO, Firkrat</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-                        
-                        <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-</p>
-
-                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                             <span class="testimonials__name">Ali maki</span> 
-                            <span class="testimonials__pos">CEO, Firkrat</span>
-                        </div>
-
-                    </div>
+                       
 
                 </div><!-- end testimonials -->
                 
@@ -610,8 +604,8 @@
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+                <h3 class="subhead">اتصل بنا</h3>
+                <h1 class="display-2 display-2--light">تواصل مع مشروع جديد أو قل مرحبًا</h1>
             </div>
         </div>
 
@@ -619,27 +613,27 @@
             
             <div class="contact-primary">
 
-                <h3 class="h6">Send Us A Message</h3>
+                <h3 class="h6">أرسل لنا رسالة</h3>
 
                 <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
     
                     <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="contactName" type="text" id="contactName" placeholder="اسمك" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="بريدك الالكتروني" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="موضوع" value="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="contactMessage" id="contactMessage" placeholder="رسالتك" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
+                        <button class="full-width btn--primary">يُقدِّم</button>
                         <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
+                            <div class="text-loader">إرسال...</div>
                             <div class="s-loader">
                                 <div class="bounce1"></div>
                                 <div class="bounce2"></div>
@@ -653,12 +647,12 @@
 
                 <!-- contact-warning -->
                 <div class="message-warning">
-                    Something went wrong. Please try again.
+                    هناك خطأ ما. حاول مرة اخرى.
                 </div> 
             
                 <!-- contact-success -->
                 <div class="message-success">
-                    Your message was sent, thank you!<br>
+                    تم إرسال رسالتك ، شكرا لك!<br>
                 </div>
 
             </div> <!-- end contact-primary -->
@@ -666,10 +660,10 @@
             <div class="contact-secondary">
                 <div class="contact-info">
 
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+                    <h3 class="h6 hide-on-fullwidth">معلومات الاتصال</h3>
 
                     <div class="cinfo">
-                        <h5>Where to Find Us</h5>
+                        <h5>أين تجدنا</h5>
                         <p>
                             Balkiraz Mah./Akçadağa Sok./NO:22/2<br>
                             Ankara/Mamak<br>
@@ -677,16 +671,16 @@
                     </div>
 
                     <div class="cinfo">
-                        <h5>Email Us At</h5>
+                        <h5>راسلنا على</h5>
                         <p>
                             fikratservices@hotmail.com<br>
                                                     </p>
                     </div>
 
                     <div class="cinfo">
-                        <h5>Call Us At</h5>
+                        <h5>اتصل بنا على</h5>
                         <p>
-                            Phone: (+90) 552 3666572<br>
+                            هاتف: (+90) 552 3666572<br>
                             
                                                 </p>
                     </div>
@@ -726,15 +720,13 @@
             <div class="col-six tab-full left footer-desc">
 
                 <div class="footer-logo"></div>
-                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-
+                مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.
             </div>
 
             <div class="col-six tab-full right footer-subscribe">
 
                 <h4>Get Notified</h4>
-                <p>                    Welcome to Fikrat - a one-stop-shop for all your international business and tourism needs. We specialize in medical tourism, professional translation & interpreting, tourism & sightseeing, and international business consultancy.
-</p>
+                <p>     مرحبًا بك في فكرة - متجر شامل لجميع احتياجاتك التجارية والسياحية الدولية. نحن متخصصون في السياحة العلاجية والترجمة التحريرية والشفهية والسياحة ومشاهدة المعالم واستشارات الأعمال الدولية.</p>
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
@@ -747,7 +739,7 @@
             </div>
 
         </div> <!-- end footer-main -->
-
+                 </section>
         <div class="row footer-bottom">
 
             <div class="col-twelve">
