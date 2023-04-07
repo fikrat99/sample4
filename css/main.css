@@ -531,6 +531,7 @@ form,
 
 .left {
   width: 25%;
+  background-image: url("../images/bg.jpg");
 } 
 
 .right {
