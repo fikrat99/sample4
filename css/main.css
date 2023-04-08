@@ -537,7 +537,22 @@ form,
   width: 25%;
   background-image: url("../images/sm.jpg");
 } 
-
+.left4 {
+  width: 25%;
+  background-image: url("../images/tor.jpeg");
+} 
+.left5 {
+  width: 25%;
+  background-image: url("../images/sm.jpg");
+} 
+.left6 {
+  width: 25%;
+  background-image: url("../images/sm.jpg");
+} 
+.lef7 {
+  width: 25%;
+  background-image: url("../images/sm.jpg");
+} 
 .right {
   width: 75%;
 }
