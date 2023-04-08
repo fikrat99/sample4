@@ -548,6 +548,7 @@ form,
 .left6 {
   width: 25%;
   background-image: url("../images/webdes.png");
+ background-size:cover;
 } 
 .lef7 {
   width: 25%;
