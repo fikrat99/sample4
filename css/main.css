@@ -554,6 +554,8 @@ form,
 .lef7 {
   width: 25%;
   background-image: url("../images/webdev.jpeg");
+  background-size:cover;
+  background-position: center;
 } 
 .right {
   width: 75%;
