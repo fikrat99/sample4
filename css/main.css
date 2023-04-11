@@ -557,7 +557,22 @@ form,
   background-size:cover;
   background-position: center;
 } 
-.right {
+.right2 {
+  width: 75%;
+}
+.right3 {
+  width: 75%;
+}
+.right4 {
+  width: 75%;
+}
+.right5 {
+  width: 75%;
+}
+.right6 {
+  width: 75%;
+}
+.right7 {
   width: 75%;
 }
 
@@ -592,9 +607,24 @@ form,
       height: 15vh;
    }
   
-  .right {
-    height: 350vh;
+.right2 {
+ height: 350vh;
   }
+.right3 {
+ height: 350vh;;
+}
+.right4 {
+ height: 350vh;
+}
+.right5 {
+  height: 350vh;
+}
+.right6 {
+  height: 350vh;
+}
+.right7 {
+  height: 350vh;
+}
 }
 /* ===================================================================
  * # preloader
