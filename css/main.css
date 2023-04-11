@@ -570,7 +570,7 @@ form,
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-    height: 315vh;
+    height: 365vh;
    }
    
    .left2 {
@@ -593,7 +593,7 @@ form,
    }
   
   .right {
-    height: 300vh;
+    height: 350vh;
   }
 }
 /* ===================================================================
