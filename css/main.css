@@ -589,22 +589,22 @@ form,
    }
    
    .left2 {
-      height: 15vh;
+      height: 65vh;
    }
    .left3 {
       height: 65vh;
    }
    .left4 {
-      height: 15vh;
+      height: 65vh;
    }
    .left5 {
       height: 15vh;
    }
    .left6 {
-      height: 15vh;
+      height: 65vh;
    }
    .lef7 {
-      height: 15vh;
+      height: 65vh;
    }
   
 .right2 {
@@ -614,7 +614,7 @@ form,
  height: 200vh;;
 }
 .right4 {
- height: 200vh;
+ height: 300vh;
 }
 .right5 {
   height: 200vh;
